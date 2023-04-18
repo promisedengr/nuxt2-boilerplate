@@ -1,6 +1,5 @@
 
 ## Build Setup
-https://trello.com/b/F6FmKsJV/vue-front-end
 
 ```bash
 # install dependencies
