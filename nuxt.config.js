@@ -121,7 +121,11 @@ export default {
       port: 4500,
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    babel: {
+      plugins: ["@babel/plugin-proposal-logical-assignment-operators"], // to use js oprators like ??=, && ...
+    }
+  },
   vue: {
     config: {
       productionTip: false,
